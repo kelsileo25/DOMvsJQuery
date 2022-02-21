@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 var button2 = document.getElementById('button2')
 button2.addEventListener("click", function() {
-    var text = document.getElementById('textbar').ariaValueMax;
+    let text = document.getElementById('textbar').value;
     alert(text);
 })
 
